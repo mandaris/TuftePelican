@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+{% block headers %}
+  <meta charset="utf-8" />
+  <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+  <base href="{{ SITEURL }}">
+  <link rel="stylesheet" type="text/css" href="/theme/tufte-css/tufte.css" />
+  <link rel="shortcut icon" type="text/css" href="/favicon.ico" />
+  {% if FEED_ATOM %}
+  <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml"
+        rel="alternate" title="{{ SITENAME }} Atom Feed" />
+  {% endif %}
+  {% if FEED_RSS %}
+  <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" 
+        rel="alternate" title="{{ SITENAME }} RSS Feed" />
+  {% endif %}
+{% endblock headers %}
+</head>
+
+<body>
+</body>
+</html>
