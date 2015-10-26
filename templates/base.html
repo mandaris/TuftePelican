@@ -6,6 +6,7 @@
   <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
   <base href="{{ SITEURL }}">
   <link rel="stylesheet" type="text/css" href="/theme/tufte-css/tufte.css" />
+  <link rel="stylesheet" type="text/css" href="/theme/css/main.css" />
   <link rel="shortcut icon" type="text/css" href="/favicon.ico" />
   {% if FEED_ATOM %}
   <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml"
@@ -21,7 +22,7 @@
 <body>
 <header>
   <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
-  <nav class="navmenu">
+  <nav class="navmenu" id="navmenu">
     <li><a href="index.html">About</a></li>
     <li><a href="index.html">Projects</a></li>
     <li><a href="index.html">Archive</a></li>
@@ -31,7 +32,7 @@
 {% block content%}
 {% endblock content %}
 <footer>
-  <p>{{ FOOTER_TEXT or 'Powered by <a href="http://pelican.readthedocs.org">Pelican</a>' }}</p>
+  <p>Powered by <a href="http://pelican.readthedocs.org">Pelican</a></p>
   <nav>Older Articles</nav>
 </footer>
 </body>
