@@ -11,3 +11,6 @@
 @import url("pygment.css");
 @import url("typogrify.css");
 
+header nav li {
+  display: inline;
+}
