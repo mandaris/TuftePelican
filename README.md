@@ -10,7 +10,7 @@ DEFAULT_LANG
 
 
 Things to do:
-- [ ] Test that all the stubs work
+- [X] Test that all the stubs work
 - [ ] Get article/page info into respective page/articles
 - [ ] Get Naviagation working
 - [ ] Add analystics
