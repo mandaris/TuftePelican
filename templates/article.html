@@ -4,7 +4,8 @@
 <article>
 	<header>
 	<h1><a href="{{ article.url }}" rel="bookmark"
-           title="Permalink to {{ article.title|striptags }}">{{ article.title}}</a></h1>
+           title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+    <p class="subtitle">{{ article.date }}</p>
 	</header>
 	{{ article.content }}
 </article>
