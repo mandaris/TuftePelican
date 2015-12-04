@@ -13,7 +13,7 @@
    {{ article.title}}
 </a>
 </h1>
-<p class="subtitle">{{ article.date }}</p>
+<p class="subtitle">{{ article.date }}<label for="{{ article.slug }}" class="margin-toggle"> ⊕</label><input type="checkbox" id="{{ article.slug }}" class="margin-toggle" /><span class="marginnote">Category: {{ article.category }}</span></p>
 </header>
 {{ article.content }}	
 </article>
