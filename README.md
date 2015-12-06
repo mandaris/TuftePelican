@@ -13,6 +13,7 @@ Things to do:
 - [X] Test that all the stubs work
 - [ ] Get article/page info into respective page/articles
 - [ ] Get Naviagation working
+- [ ] Create liquid tag plugin for margin and side notes
 - [ ] Add analystics
 - [ ] Add social links
 - [ ] Add way to choose pygments style from properties.
