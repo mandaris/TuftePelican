@@ -7,6 +7,6 @@
    {{ article.title}}
 </a>
 </h1>
-<p class="subtitle"><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time><label for="{{ article.slug }}" class="margin-toggle"> ⊕</label><input type="checkbox" id="{{ article.slug }}" class="margin-toggle" /><span class="marginnote"><a href="{{ SITEURL}}/{{ article.category.url }}">Category: {{ article.category }}</a><br />
+<p class="subtitle"><time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time><label for="{{ article.slug }}" class="margin-toggle"> ⊕</label><input type="checkbox" id="{{ article.slug }}" class="margin-toggle" /><span class="marginnote">Category: <a href="{{ SITEURL}}/{{ article.category.url }}">{{ article.category }}</a><br />
 {% for tag in article.tags %} #<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% endfor %}</span></p>
 </header>
