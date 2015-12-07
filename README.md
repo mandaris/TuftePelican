@@ -20,3 +20,12 @@ Things to do:
 - [ ] Add analystics
 - [ ] Add social links
 - [ ] Add way to choose pygments style from properties.
+
+
+
+
+
+## References ##
+The initial structure is from cebong pelican theme. 
+
+The initial pagination is from the dev-random2 theme.
