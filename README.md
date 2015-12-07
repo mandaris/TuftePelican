@@ -16,6 +16,11 @@ Things to do:
 - [X] Get article/page info into respective page/articles
 - [ ] Get Naviagation working
 - [ ] Create liquid tag plugin for margin and side notes
+    -[ ] sidenote
+    -[ ] marginnote
+    -[ ] margine_figure
+    -[ ] main_column_img
+    -[ ] fullwidth
 - [ ] Add open graph tagging
 - [ ] Add analystics
 - [ ] Add social links
