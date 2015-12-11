@@ -25,6 +25,7 @@ Things to do:
 - [ ] Add analystics
 - [ ] Add social links
 - [ ] Add way to choose pygments style from properties.
+- [ ] Redefine the table css to for basic tables without giving the table a class name (helps with basic tables)
 
 
 
