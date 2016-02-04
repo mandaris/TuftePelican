@@ -1,7 +1,7 @@
 Tufte CSS
 =========
 >Simplicity, to me, has always been the essence of good taste. <br/>
-> -- [Cary Grant](http://www.gq.com/style/wear-it-now/201304/cary-grant-on-style?printable=true)
+> -- [Cary Grant](http://www.gq.com/story/cary-grant-on-style?printable=true)
 
 Edward Tufte uses a distinctive style in his handouts: simple, with well-set
 typography, extensive sidenotes, and tight integration of graphics and
@@ -15,7 +15,7 @@ Getting Started
 -
 The file *index.html* is a self-describing demonstration document that walks through
 the features of Tufte CSS. The live version at
-[http://www.daveliepmann.com/tufte-css/](http://www.daveliepmann.com/tufte-css/)
+[https://edwardtufte.github.io/tufte-css/](https://edwardtufte.github.io/tufte-css/)
 is the best overview of the project.
 
 To use Tufte CSS on your own HTML page, just copy `tufte.css`,
@@ -39,7 +39,7 @@ test your fix or new functionality against `index.html` on screens as
 small as an iPhone 4 and as big as, well, as big as you use
 normally. (If you don't have a mobile device handy, fake different
 devices with your browser's developer tools.)  See the Issues page, especially
-[Help Wanted](https://github.com/daveliepmann/tufte-css/labels/help%20wanted),
+[Help Wanted](https://github.com/edwardtufte/tufte-css/labels/help%20wanted),
 for opportunities to contribute. Keep our style guide in mind:
 
 CSS Style Guide
@@ -48,7 +48,7 @@ CSS Style Guide
 >conventions (sometimes arbitrary) about how to write code for that
 >project. It is much easier to understand a large codebase when all the
 >code in it is in a consistent style. <br/>
-> -- [Google Style Guide](https://code.google.com/p/google-styleguide/)
+> -- [Google Style Guide](https://github.com/google/styleguide)
 
 Tufte CSS aims for clarity, concision, and uniformity. Here's a basic
 example of our CSS conventions:
@@ -73,17 +73,18 @@ rules change slightly for media queries.
 
 Contributors
 -
- - Dave Liepmann (creator, project maintainer)
- - [Clay Harmon](https://github.com/daveliepmann/tufte-css/commits/master?author=clayh53) (media queries, rem units)
- - [Linjie Ding](https://github.com/daveliepmann/tufte-css/commits/master?author=pyrocat101) (italic typeface)
- - [Stephen A Thomas](https://github.com/daveliepmann/tufte-css/commits/master?author=sathomas) (automagically numbered sidenotes)
- - [Ben Newman](https://github.com/daveliepmann/tufte-css/pull/9) (sidenote numbering style)
- - [Kevin Godby](https://github.com/daveliepmann/tufte-css/commits/master?author=godbyk) (booktabs tables)
- - [James Kolce](https://github.com/daveliepmann/tufte-css/commits/master?author=jameskolce) (sidenote fixes)
- - [Chris MacKay](https://github.com/crmackay) (sidenote toggling on
-   small screens)
- - [Paul Rodriguez](https://github.com/daveliepmann/tufte-css/commits/master?author=ruricolist)
+ - Dave Liepmann (creator, project maintainer, design)
+ - Edward Tufte (editing, direction, design)
+ - [Clay Harmon](https://github.com/edwardtufte/tufte-css/commits/master?author=clayh53) (media queries, rem units)
+ - [Linjie Ding](https://github.com/edwardtufte/tufte-css/commits/master?author=pyrocat101) (italic typeface)
+ - [Stephen A Thomas](https://github.com/edwardtufte/tufte-css/commits/master?author=sathomas) (automagically numbered sidenotes)
+ - [Ben Newman](https://github.com/edwardtufte/tufte-css/pull/9) (sidenote numbering style)
+ - [Kevin Godby](https://github.com/edwardtufte/tufte-css/commits/master?author=godbyk) (booktabs tables)
+ - [James Kolce](https://github.com/edwardtufte/tufte-css/commits/master?author=jameskolce) (sidenote fixes)
+ - [Chris MacKay](https://github.com/crmackay) (sidenote toggling on small screens)
+ - [Paul Rodriguez](https://github.com/edwardtufte/tufte-css/commits/master?author=ruricolist)
    (sidenote style tweaks)
+ - [Claudiu-Vlad Ursache](https://github.com/edwardtufte/tufte-css/commits/master?author=ursachec) (HTML5 conformity)
 
 License
 -
