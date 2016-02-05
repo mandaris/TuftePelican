@@ -11,9 +11,8 @@
 @import url("pygment.css");
 @import url("typogrify.css");
 
-header nav li {
-  display: inline;
-}
+header nav li { display: inline;
+                padding-right: .5rem; }
 
 h1 { font-weight: 400;
      margin-top: 1.568rem;
@@ -37,3 +36,15 @@ h3 { font-style: italic;
 
 article { position: relative;
           padding: 1rem 0rem 2.5rem 0rem; } // reduced top and bottom padding by 50%
+
+hr { margin-left: 0;
+     width: 75%; }
+
+article div hr { margin-left: 0;
+     width: 75%; }
+
+.websitetitle { font-size: 4rem;
+                margin-top: 0;
+                margin-bottom: 1rem; }
+
+a.navitemlink { text-decoration: none; }

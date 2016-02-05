@@ -21,16 +21,15 @@
 
 <body>
 <header>
-  <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
+  <h1 class="websitetitle"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
   <nav class="navmenu" id="navmenu">
-    <li><a href="{{ SITEURL }}/archives.html">Archive</a></li>
+    <li><a class="navitemlink" href="{{ SITEURL }}/archives.html">Archive</a></li>
     {% if DISPLAY_PAGES_ON_MENU %}
     {% for p in PAGES %}
-    <li><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+    <li><a class="navitemlink" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
     {% endfor %}{% endif %}
    </nav>
  </header>
-<hr />
 {% block content%}
 {% endblock content %}
 <footer>
