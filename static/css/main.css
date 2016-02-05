@@ -43,6 +43,12 @@ hr { margin-left: 0;
 article div hr { margin-left: 0;
      width: 75%; }
 
+article div ol li { margin-top: 0;
+                 margin-bottom: 0; }
+
+article div ol li p { padding: 0;
+                      margin: 0; }
+
 .websitetitle { font-size: 4rem;
                 margin-top: 0;
                 margin-bottom: 1rem; }
