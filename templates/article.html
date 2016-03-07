@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title|striptags }}{% endblock %}
+
+{% block OPEN_GRAPH_INFO %}
+{% for tag in article.ogtags %}
+  <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+{% endfor %}
+{% endblock OPEN_GRAPH_INFO %}
+
 {% block content %}
 <article>
 {% include "article_header.html" %}
