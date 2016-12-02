@@ -2,7 +2,7 @@
       <nav id="pagination">
         {%- if articles_page.has_previous() %}
         <a id="first_page" href="{{ SITEURL }}/{{ page_name }}.html">&#60;&#60;</a>
-        <a id="prev_page" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() if articles_page.previous_page_number() != 1 else "" }}.html">&#60;</a>
+        <a id="prev_page" rel="prev" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() if articles_page.previous_page_number() != 1 else "" }}.html">&#60;</a>
         {% else %}
    <!-- <span id="first_page" class="a inactive">&#60;&#60;</span>
         <span id="first_page" class="a inactive">&#60;</span> -->
@@ -19,7 +19,7 @@
         {% endfor -%}
 
         {%- if articles_page.has_next() %}
-        <a id="next_page" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html">&#62;</a>
+        <a id="next_page" rel="next" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html">&#62;</a>
         <a id="last_page" href="{{ SITEURL }}/{{ page_name }}{{ articles_paginator.num_pages }}.html">&#62;&#62;</a>
         {% else %}
    <!-- <span id="next_page" class="a inactive">&#62;</span>
