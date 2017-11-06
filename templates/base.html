@@ -41,8 +41,8 @@
   <nav class="navmenu" id="navmenu">
     <li><a class="navitemlink" href="{{ SITEURL }}/archives.html">Archive</a></li>
     {% if DISPLAY_PAGES_ON_MENU %}
-    {% for p in PAGES %}
-    <li><a class="navitemlink" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+    {% for page in pages %}
+    <li><a class="navitemlink" href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
     {% endfor %}{% endif %}
    </nav>
  </header>
