@@ -1,6 +1,9 @@
 # TuftePelican
 A pelican theme that attempts to use the [Tufte CSS](http://www.daveliepmann.com/tufte-css/) provide by Dave Liepmann. I hope I do him justice.
 
+Some of the features are toggled by adding a Tufte plugin via liquid tags.
+Link to gist is [here](https://gist.github.com/mandaris/78a88d7cd2d1ecded07a0b0680a45731)
+
 Navigation to directly access categories and tags aren't going to be in my initial release of this theme.
 
 
